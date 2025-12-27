@@ -11,7 +11,7 @@ add_library(noalloc_lib
 
 target_include_directories(noalloc_lib
     PUBLIC
-    ${CMAKE_CURRENT_SOURCE_DIR/include}
+    ${CMAKE_CURRENT_SOURCE_DIR}/include
 )
 
 target_compile_options(noalloc_lib PRIVATE -Wall -Wextra -Werror -pedantic)
